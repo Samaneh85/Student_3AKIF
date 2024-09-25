@@ -2,54 +2,54 @@ public class Student
 {
     private String name;
     private int alter;
-    private boolean matura;
+    private String religion;
 
-    public Student()
+    
+  
+
+    public void setName(String neuName)
     {
-        setName("Thomas");
-        setAlter(40);
-        setMatura(true);
+        name = neuName;
+        
     }
 
-    public Student(String name, int alter, boolean matura)
+    public void setAlter(int neuAlter)
     {
-        setName(name);
-        setAlter(alter);
-        setMatura(matura);
+       alter = neuAlter;
     }
-
-    public void setName(String name)
+ 
+            
+  public void setRelegion(String neuReligion)
     {
-        this.name = name;
-    }
-
-    public void setAlter(int alter)
-    {
-        this.alter = alter;
-    }
-
-    public void setMatura(boolean matura)
-    {
-        this.matura = matura;
+        religion = neuReligion;
     }
 
     public String getName()
     {
         return name;
-    }
 
-    public int getAlter()
+    }
+    
+    
+    public int Alter()
     {
         return alter;
+    
     }
-
-    public boolean getMatura()
+    public String Religion ()
     {
-        return matura;
+         return religion;
+        
     }
+        
+    
+       
 
-    public void printStudent()
-    {
-        System.out.println("Student:\t" + name + "\t" + alter + "\t" + matura);
-    }
+
+
+
+    
+    
+
 }
+    
